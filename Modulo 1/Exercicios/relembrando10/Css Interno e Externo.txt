@@ -1,0 +1,13 @@
+tag <style> dentro do <head>
+
+para paginas simples
+
+----------------------------------------------------
+Criar o arquivo css e chamar no cabeçalho da pagina com:
+
+<link rel="stylesheet" href="style.css">
+
+ou selecionar o link:css
+
+
+@charset "UTF-8"; - regra para o arquivo ser compativel com UTF-8 (acentuação)

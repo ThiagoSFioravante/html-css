@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* 
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children
+        */
+        @charset "UTF-8";
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+        body{
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            font: bold 1em 'Roboto', sans-serif;
+            color: rgb(46, 196, 196);
+        }
+
+        a:hover{
+            color: rgb(255, 0, 0);
+            text-decoration: underline;
+        }
+
+        a:visited{
+            color: rgb(29, 104, 104);
+        }
+
+        a:active{
+            color: rgb(186, 196, 46);
+        }
+
+        a::after{
+            content: ' [link]';
+            font: normal 12px Arial, Helvetica, sans-serif;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalização de Links</h1>
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="external">Youtube</a>
+        </li>
+        <li>
+            <a href="https://web.facebook.com/thiago.fioravante.5/" target="_blank"  rel="external">Facebook</a>
+        </li>
+        <li>
+            <a href="https://github.com/ThiagoSFioravante" target="_blank" rel="external">GitHub</a>
+        </li>
+    </ul>
+</body>
+</html>

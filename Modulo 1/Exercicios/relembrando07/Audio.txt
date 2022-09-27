@@ -1,0 +1,27 @@
+<audio src="nomedapasta/nomedoarquivo" controls></audio>
+
+controls - para mostrar o reprodutor de play, pause e volume
+
+autoplay - para reproduzir sozinho, não funcione as vezes
+
+-------------------------------------------------------------
+
+<audio preload="metadata">
+     <source src="media/abluablua.mp3" type="mpeg">
+     <source src="media/abluablua.ogg" type="ogg">
+     <source src="media/abluablua.wav" type="wav">
+</audio>
+
+para colocar o mesmo arquivo em varios formatos
+
+type="mpeg" - para formato mp3
+type="ogg" - para formato ogg
+type="wav" - para formato wav
+
+A ORDEM INTERFERE, DE CIMA PRA BAIXO
+--------------------------------------------
+preload
+
+metadata - carrega apenas alguns dados dos arquivos
+auto - só considera que o site carregou depois de carregar todos os arquivos de audio - RUIM
+nome - não carrega nada, carregando somente quando o usuario clicar no play

@@ -1,0 +1,8 @@
+Medidas Absolutas
+cm, mm, in (polegada), pt (ponto), pc (paica)
+   -------------- 
+Medidas Relativas
+em, ex, rem, vw, vh, %
+
+
+Recomendado usar PX ou EM

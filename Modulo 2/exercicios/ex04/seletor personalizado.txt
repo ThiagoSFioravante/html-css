@@ -1,0 +1,7 @@
+em HTML é id, em CSS é #
+em HTML é class, em CSS é .
+
+--------------------------------------------------------------------------------------------------
+
+Só pode ter um id por documento, não utilizar o mesmo id para varios elementos
+Utilizar class

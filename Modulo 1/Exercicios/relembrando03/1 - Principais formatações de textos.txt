@@ -1,0 +1,15 @@
+<strong> - negrito
+
+<em> - italico
+
+<mark> - texto marcado
+
+<small> - texto pequeno
+
+<del> - texto deletado ou riscado
+
+<ins> - texto inserido ou sublinhado
+
+<sup> - texto sobrescrito
+
+<sub> - texto subscrito

@@ -1,0 +1,10 @@
+<code> - para códigos
+<pre> - usado para formatação
+
+<q> - para citações
+
+<blockquote cite="site de referencia"> - para citações completas
+
+<abbr> - abreviações (quando passar o mouse em cima aparece o texto)
+
+<bdo dir="rtl"> - texto invertido completamente inutil

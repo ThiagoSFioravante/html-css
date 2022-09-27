@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relembrando 07</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Imagens de tamanhos diferentes, diminuindo ou aumentando o tamanho da janela do navegador ou abrindo o site em dispositivos de tamanhos de telas diferentes.</p>
+
+    <picture>
+        <!-- A ordem importa, então sempre colocar as imagens de menor tamanho em cima, como o exemplo abaixo -->
+
+        <source media="(max-width: 750px)" srcset="img/fotop.png" type="image/png"> <!-- Se a largura da tela for menor que 750px a imagem pequena é carregada -->
+
+        <source media="(max-width: 1050px)" srcset="img/fotom.png" type="image/png"> <!-- Se a largura da tela for menor que 1050px a imagem media é carregada -->
+        
+        <img src="img/fotog.png" alt="foto grande"> <!-- Carrega a imagem original -->
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Aprendendo a reproduzir audio em HTML</p>
+    <!-- <audio preload="metadata" controls>
+        <source src="media/ai-mamae.mp3" type="mpeg">
+    </audio> -->
+     <audio src="media/uiiiiiiiiii.mp3" controls></audio> 
+</body>
+</html>

@@ -1,0 +1,21 @@
+div{
+    display: inline-block;
+    background-color: lightblue;
+    border: 1px solid black; 
+    /* shorthand - largura > tipo > cor */
+    text-align: center;
+    height: 200px; /* altura */ 
+    width: 200px; /* largura */
+}
+
+.d1:hover{
+    background-color: rgba(255, 255, 0, 0.397);
+}
+
+.d2:hover{
+    background-color: rgba(255, 0, 0, 0.397);
+}
+
+.d3:hover{
+    background-color: rgba(0, 255, 21, 0.397);
+}

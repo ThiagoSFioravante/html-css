@@ -1,0 +1,10 @@
+Cores Primariais - Amarelo, Vermelho e Azul
+
+Cores Secundarias - Laranja, Violeta e Verde
+
+Cores Terciarias - Amarelo-esverdeado, Amarelo-alaranjado, Vermelho-alaranjado, Vermelho-Arroxeado, Azul-Arroxeado e Azul-esverdeado 
+São todas as outras cores (misturas das cores primarias e secundarias), cores terciarias estão entre as primarias e secundarias
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Paleta de cores de 3 a 5 cores, tirando o preto e o branco.

@@ -1,0 +1,26 @@
+height: altura
+width: largura
+border: borda
+padding:  espaçamento dentro de borda
+margin: espaçamento fora da borda
+outline: tracejado por fora da borda
+
+--------------------------------------------------------------------------------------------------
+
+tipos de caixa
+
+box-level 
+
+sempre inicia numa linha nova
+sempre ocupa a largura inteira da tela
+
+Ex: DIV, H1 - H6, P, MAIN, HEADER, NAV, ARTICLE, ASIDE, FOOTER, FORM, VIDEO	    
+--------------------------------------------------------------------------------------------------
+inline-level
+
+não pula para a proxima linha
+desenha a caixa do tamanho para conter o conteudo do elementro, não ocupando a tela inteira
+não quebra a linha
+continua o conteudo
+
+EX: SPAN, A, CODE, SMALL, STRONG, EM, SUP - SUB, LABEL, BUTTON, INPUT, SELECT

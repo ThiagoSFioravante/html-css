@@ -1,0 +1,5 @@
+HTML é uma linguagem de conteudo - textos, imagens, videos, tabelas, listas.
+
+CSS é uma linguagem focada em design - cores, tamanhos, sombras, etc.
+
+Javascript é uma linguagem de programação de interatividade.

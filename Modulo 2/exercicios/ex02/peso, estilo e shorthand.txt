@@ -1,0 +1,13 @@
+font-weight: 100; - de 100 a 900 (de 100 em 100) ou lighter, normal, bold ou bolder
+
+font-style: normal; - italic, normal, etc
+
+text-decoration: underline; - underline, none, etc
+
+--------------------------------------------------------------------------------------------------
+
+ShortHand Fontes
+
+Ordem: font-style / font-weight / font-size / font-family
+
+Ex: font: italic bolder 3em  Arial, Helvetica, sans-serif;

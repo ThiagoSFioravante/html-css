@@ -1,0 +1,26 @@
+<ul> ou <ol> para criar as listas  
+
+<li> para listar os itens
+
+<ol> - Lista ordenadas, pode ser definido o tipo de lista com 
+type="1", type="a", type="I"(números romanos) 
+start="" para definir onde começar (quando for letra, contar a ordem das letras e informar numeros)
+
+<ul> - Lista Não ordenadas, pode ser definido o tipo de lista com
+type="disc", type="circle", type="square"
+
+disc - bolinha preta
+circle - bolinha não preenchida
+square - quadradinho preto
+
+----------------------------------------
+
+Pode-se fazer sub listas com <ul> ou <ol> dentro dos <li>, Por exemplo
+
+<ol>
+    <li> Arroz
+        <ul type="square">
+	    <li> c/ Frango </li>
+        </ul>
+    </li>
+</ol>

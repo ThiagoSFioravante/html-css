@@ -1,0 +1,8 @@
+Imagem dentro da mesma pasta 
+    <img src="bola.png" alt="Paisagem">
+
+Imagem dentro de uma pasta 
+    <img src="img/paisagem-200.png" alt="Paisagem">
+
+Imagem da internet - Copiar endereço da imagem
+    <img src="https://bognarjunior.files.wordpress.com/2018/01/1crcyaithv7aiqh1z93v99q.png" alt="Logo JavaScript">

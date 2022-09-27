@@ -1,0 +1,33 @@
+Links Externos
+
+<a href="link" target="_blank" rel="extenal"> Links </a>
+
+target="_blank" - para o link abrir uma nova guia
+rel="external" - para referenciar que é um link externo
+
+------------------------------------------------------------
+
+Links Internos
+
+<a href="nomedapagina" rel="next"> Links </a>
+
+Caso a pagina esteja em outra pasta dentro dos arquivos, referenciar a pasta. Ex:
+
+a href="nomedapasta/nomedapagina" rel="next"> Links </a>
+
+rel="next" - para referenciar que esta avançando uma pagina dentro do mesmo site
+
+------------------------------------------------------------
+
+Links para Download
+
+<a href="nomedapasta/nomedoarquivo" target="_blank"> Download </a>
+
+------------------------------------------------------------
+
+<a href="../nomedapagina"> - .. para voltar a uma pasta dentro dos arquivos. Ex:
+A pagina 3 esta dentro de uma pasta separada das demais pastas, para que o link da da pagina 3 voltando para outras paginas funcione, devemos colocar os ".." para indicar que estamos voltando uma pasta dentro dos arquivos
+
+rel="prev" - para referenciar que esta voltando a uma pagina dentro do mesmo site
+
+rel="nofollow" - Informar as motores de busca para não "seguirem" o link, em outras palavras pede para os motores de busca desconsiderarem o link para fins de SEO.

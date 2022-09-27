@@ -1,0 +1,27 @@
+h1 {
+    background-color: rgb(179, 236, 236);
+    width: 385px;
+    height: 38px;
+    border: 6px solid rgb(131, 163, 163);
+    padding: 7px 5px;
+    margin: 25px auto;
+
+    outline: 3px dashed salmon;
+}
+
+a{
+    color: rgba(72, 255, 0, 0.74);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgba(72, 255, 0, 0.205);
+}
+
+a:active{
+    color: rgba(175, 13, 13, 0.637);
+}
+
+a:hover{
+    text-decoration: underline;
+}

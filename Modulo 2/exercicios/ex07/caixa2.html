@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            padding: 10px;
+            height: 100px;
+            background-color: antiquewhite;
+            margin: 0px;
+        }
+
+        main{
+            margin: 10px 15px;
+            text-align: justify;
+        }
+
+        .menu{
+            background-color: azure;
+            text-align: center;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.267);
+            width: 400px;
+            margin: auto;
+        }
+
+        .cabecalho{
+            display: inline-block;
+            width: 100%;
+        }
+
+        .cabecalho > h1{
+            width: 100px;
+            margin: 0px;
+            display: inline-block;
+        }
+
+        .menu > a{
+            padding: 0px 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .menu > a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        .titlenot{
+            text-align: center;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px
+        }
+
+        #assuntos > nav > a{
+            text-decoration: none;
+            color: blue;
+            padding: 0px 10px;
+        }
+
+        #assuntos > nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        #assuntos > nav{
+            text-align: left;
+            margin: 25px 0px 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="cabecalho"> 
+            <h1>Site</h1>
+            <nav class="menu">
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <nav>
+                <a href="#">Esportes</a>
+                <a href="#">Politica</a>
+                <a href="#">Tecnologia</a>
+            </nav>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2 class="titlenot">Noticias do Dia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at cupiditate accusamus hic quod similique nemo reiciendis eaque, natus explicabo dicta provident, consectetur tempora, suscipit nostrum iure. Voluptatum, sed quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo id doloribus laboriosam molestiae mollitia corporis cumque corrupti iste minus aliquid ratione asperiores, sequi aut labore necessitatibus quam veniam debitis error?</p>
+                <aside>
+                    <p>Artigo Escrito por Thiago</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Thiago da Silva Fioravante</p>
+    </footer>
+</body>
+</html>

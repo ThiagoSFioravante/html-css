@@ -1,0 +1,18 @@
+*{ 
+    height: 100%;  
+ }
+
+configuração global do css
+--------------------------------
+body{
+    	background-image: linear-gradient(to bottom, #9700FF, #CC00EA);
+    	background-attachment: fixed;
+    }
+
+linear-gradient = gradient em linhas, definir a direção como:
+
+to bottom, to top, to right, to left ou em graus, ex: 45deg = 45 graus.
+---------
+radial-gradient: circle = gradient em circulos 
+
+

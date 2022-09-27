@@ -1,0 +1,27 @@
+body{
+    text-align: justify;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    /* font-weight: 100; */
+    /* font-style: normal; */ 
+    /* text-decoration: underline; */
+
+    /* Medidas Absolutas
+    cm, mm, in (polegada), pt (ponto), pc (paica)
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    */
+}
+
+h1{
+    /* shothand font 
+    ordem: font-style / font-weight / font-size / font-family */
+    
+    font: italic bolder 3em  Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font: italic bolder 2em 'Times New Roman', Times, serif;
+}
