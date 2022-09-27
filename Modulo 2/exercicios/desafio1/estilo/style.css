@@ -216,7 +216,7 @@ div.video > iframe{
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     padding: 0px 20px 5px 5px;
-    margin-left: 20px;
+    margin-left: 10px; 
     columns: 2;
 }
 
