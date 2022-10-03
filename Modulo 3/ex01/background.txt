@@ -1,0 +1,27 @@
+background-size: cointan, cover, auto, ou em pixel/porcentagem;
+
+auto - automatico, o navegador decide 
+
+tamanho em pixel ou porcentagem 
+
+cover não exibe 100% da imagem mas ocupa 100% da viewport
+            
+cointan mostra 100% da imagem, dependendo do tamanho da imagem não ocupa 100% da viewport
+--------------------------------------------------------------------------------------------------
+
+background-attachment: fixed ou scroll
+
+fixed - o fundo fica fixo, o scroll só movimenta o conteudo
+
+scroll - o fundo rola junto com o conteudo
+--------------------------------------------------------------------------------------------------
+
+Shorthand - background 
+
+color > image > position > repeat> [size] > attachment - ordem correta, porem com o size não funciona nos navegadores
+
+então usar:
+
+EX:
+background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+background-size: cover;
