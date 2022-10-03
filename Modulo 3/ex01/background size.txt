@@ -1,0 +1,9 @@
+background-size: cointan, cover, auto, ou em pixel/porcentagem;
+
+auto - automatico, o navegador decide 
+
+tamanho em pixel ou porcentagem 
+
+cover não exibe 100% da imagem mas ocupa 100% da viewport
+            
+cointan mostra 100% da imagem, dependendo do tamanho da imagem não ocupa 100% da viewport
