@@ -18,7 +18,7 @@ scroll - o fundo rola junto com o conteudo
 
 Shorthand - background 
 
-color > image > position > repeat> [size] > attachment - ordem correta, porem com o size não funciona nos navegadores
+color > image > position > repeat > [size] > attachment - ordem correta, porem com o size não funciona nos navegadores
 
 então usar:
 

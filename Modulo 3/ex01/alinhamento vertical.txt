@@ -1,0 +1,22 @@
+No conteudo que está atras deve-se colocar - position: relative
+No conteudo que está tentando centralizar - position: absolute 
+
+Com o "position: absolute", podemos usar duas propriedades - "left" e "top"
+--------------------------------------------------------------------------------------------------
+
+Podemos usar o "transform: translate()" para mover objetos. 
+
+Primeiro informamos o lado e depois se é pra cima ou para baixo. EX:
+
+transform: translate(-50%, -50%);
+O sinal de negativo é utilizado para esquerda e cima
+		---------
+transform: translate(50%, 50%);
+Quando informamos apenas os numeros sem o sinal de negativo, estamos direcionando para a direita e para baixo
+--------------------------------------------------------------------------------------------------
+Para centralizar uma div podemos usar:
+
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%)
